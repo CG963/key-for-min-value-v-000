@@ -14,5 +14,7 @@ def key_for_min_value(name_hash)
       min_num = vaue if value < min_num
     end
     name_hash.each do |key, value|
-      if min_num < value
+      if min_num == value
+        return key
+      end
 end
