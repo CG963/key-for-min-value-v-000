@@ -13,5 +13,6 @@ def key_for_min_value(name_hash)
     array.each do |value|
       min_num = vaue if value < min_num
     end
-    name_hash.each do |value|
+    name_hash.each do |key, value|
+      
 end
